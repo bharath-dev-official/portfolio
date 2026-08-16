@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharath P — Backend Developer</title>
+
+<!-- Google Fonts: Fraunces (headings), Inter (body), JetBrains Mono (code/labels) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+
+  <!-- ============ NAV BAR (styled like open editor tabs) ============ -->
+  <header class="tabbar" id="tabbar">
+    <div class="tabbar-inner">
+      <span class="logo">bharath<span class="logo-dot">.</span>dev</span>
+      <nav class="tabs">
+        <a href="#home" class="tab active-tab">index.html</a>
+        <a href="#about" class="tab">about.md</a>
+        <a href="#education" class="tab">education.md</a>
+        <a href="#skills" class="tab">skills.json</a>
+        <a href="#projects" class="tab">projects.java</a>
+        <a href="#experience" class="tab">experience.log</a>
+        <a href="#contact" class="tab">contact.sh</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ============ HERO / TERMINAL ============ -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="eyebrow">// backend developer &mdash; fresher</p>
+      <h1>Bharath P</h1>
+      <p class="hero-sub">I build clean, well-structured REST APIs with Java &amp; Spring Boot &mdash; and I'm just getting started.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="terminal" id="terminal">
+      <div class="terminal-topbar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="terminal-title">bharath@backend: ~</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="prompt">$</span> whoami</p>
+        <p class="typed-line" id="typedLine"></p>
+        <p class="cursor-line"><span class="prompt">$</span> <span id="typeCursor" class="cursor">&nbsp;</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <p class="section-tag">01 &mdash; about.md</p>
+    <h2>Objective</h2>
+    <p class="about-text">
+      Motivated and detail-oriented Backend Developer fresher with a solid grip on Java, Spring Boot,
+      REST APIs, and database management. I'm looking for a chance to contribute to scalable backend
+      applications while I keep sharpening my technical and problem-solving skills in a real
+      professional environment.
+    </p>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section alt" id="education">
+    <p class="section-tag">02 &mdash; education.md</p>
+    <h2>Education</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>B.E. in Electronics and Communication</h3>
+          <p class="timeline-meta">SRM TRP Engineering College &middot; Trichy, Tamil Nadu &middot; CGPA 7.2</p>
+          <p class="timeline-date">Graduated May 2025</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>HSC (Higher Secondary)</h3>
+          <p class="timeline-meta">Sowdambikaa Matric Boys Higher Secondary School &middot; Trichy, Tamil Nadu &middot; 85.4%</p>
+          <p class="timeline-date">March 2021</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>SSLC</h3>
+          <p class="timeline-meta">Sowdambikaa Matric Boys Higher Secondary School &middot; Trichy, Tamil Nadu &middot; 75.4%</p>
+          <p class="timeline-date">May 2019</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <p class="section-tag">03 &mdash; skills.json</p>
+    <h2>Skills</h2>
+
+    <div class="skills-grid" id="skillsGrid">
+      <!-- Filled in by script.js -->
+    </div>
+
+    <h3 class="soft-heading">Soft Skills</h3>
+    <div class="pill-row">
+      <span class="pill">Communication</span>
+      <span class="pill">Problem Solving</span>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section alt" id="certifications">
+    <p class="section-tag">04 &mdash; certifications.md</p>
+    <h2>Certifications</h2>
+
+    <div class="cert-row">
+      <div class="cert-card">
+        <span class="cert-icon">🎓</span>
+        <h3>Java Full Stack Development</h3>
+      </div>
+      <div class="cert-card">
+        <span class="cert-icon">🗄️</span>
+        <h3>Oracle SQL</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <p class="section-tag">05 &mdash; projects.java</p>
+    <h2>Project Experience</h2>
+
+    <div class="project-card">
+      <div class="project-head">
+        <h3>Movie Ticket Booking System</h3>
+        <p class="project-stack">Java 8 &middot; Spring Boot &middot; Spring Data JPA &middot; Hibernate &middot; MySQL</p>
+      </div>
+      <ul class="project-list">
+        <li>Built a RESTful movie ticket booking system covering movie management, ticket booking, cancellation, and retrieval.</li>
+        <li>Designed Request &amp; Response DTOs to keep API contracts separate from database entities and keep data transfer secure.</li>
+        <li>Used Lombok to cut boilerplate and keep the codebase maintainable.</li>
+        <li>Added global exception handling with <code>@RestControllerAdvice</code> for consistent, predictable error responses.</li>
+        <li>Followed a clean layered architecture: Controller &rarr; Service &rarr; Repository &rarr; DTO &rarr; Entity.</li>
+        <li>Tested every endpoint manually with Postman.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag">Java 8</span><span class="tag">Spring Boot</span><span class="tag">Hibernate</span>
+        <span class="tag">MySQL</span><span class="tag">Lombok</span><span class="tag">Maven</span>
+        <span class="tag">REST API</span><span class="tag">Postman</span>
+      </div>
+      <a href="https://github.com/bharath-dev-official/Movie-Ticket-Booking-System" class="project-link" target="_blank" rel="noopener noreferrer">
+        View Code on GitHub &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section alt" id="experience">
+    <p class="section-tag">06 &mdash; experience.log</p>
+    <h2>Professional Experience</h2>
+
+    <div class="exp-card">
+      <div class="exp-head">
+        <h3>Web Development Intern</h3>
+        <span class="exp-date">Jul 2022 &ndash; Aug 2022</span>
+      </div>
+      <p class="exp-company">Vebbox Software Solutions</p>
+      <ul class="project-list">
+        <li>Helped build and maintain responsive web applications using HTML, CSS, and JavaScript.</li>
+        <li>Contributed to front-end features, API integration, and performance improvements.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <footer class="section contact" id="contact">
+    <p class="section-tag">07 &mdash; contact.sh</p>
+    <h2>Let's Connect</h2>
+    <p class="contact-sub">Open to backend developer roles &mdash; happy to chat about opportunities.</p>
+
+    <div class="contact-links">
+      <a href="mailto:bharath.official.p@gmail.com" class="contact-link">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">bharath.official.p@gmail.com</span>
+      </a>
+      <a href="tel:+917305745924" class="contact-link">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+91 73057 45924</span>
+      </a>
+      <div class="contact-link">
+        <span class="contact-label">Location</span>
+        <span class="contact-value">Trichy, Tamil Nadu, India</span>
+      </div>
+    </div>
+
+    <p class="footer-note">Built by Bharath P with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script (1).js"></script>
+</body>
+</html>
